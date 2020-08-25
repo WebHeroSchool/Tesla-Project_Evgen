@@ -290,14 +290,6 @@ body {
   margin-top: 25px;
 }
 
-.container {
-  display: none;
-}
-
-.footer {
-  display: none;
-}
-
 @media (max-width: 1270px) {
   .header {
     padding: 24px 33px 0 15.32px;
@@ -416,14 +408,6 @@ body {
   .main__arrow {
     margin-top: 33px;
   }
-
-  .container {
-    display: none;
-  }
-
-  .footer {
-    display: none;
-  }
 }
 
 @media (max-width: 800px) {
@@ -438,14 +422,6 @@ body {
 
   .main__container-second {
     margin-right: 0;
-  }
-
-  .container {
-    display: none;
-  }
-
-  .footer {
-    display: none;
   }
 }
 
@@ -593,11 +569,530 @@ body {
   }
 }
 
+/* .container {
+  max-height: 900px;
+} */
+
+.container__title {
+  color:#e51937;
+  margin: 101px 905px 0 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 85px;
+  z-index: 99;
+}
+
+.container__content {
+  display: flex;
+}
+
+.container__img {
+  display: inline-block;
+  width: 100%;
+  margin-top: -100px;
+  z-index: -1;
+}
+
+.container__img-phone {
+  display: none;
+}
+
+.container__aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #e51937;
+  margin-left: -270px;
+  margin-top: -151px;
+  padding: 26px 51px 0px 48px;
+}
+
+.title {
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #fff;
+}
+
+.title-second {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.container__aside-info {
+  margin-top: -14px;
+  text-align: left;
+  margin-bottom: 27px;
+}
+
+.title-second_white {
+  color: #fff;
+}
+
+.container__boxes {
+  justify-content: space-between;
+}
+
+.container__box {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.box-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__img-screen {
+  margin-top: 38px;
+}
+
+.container__box-title {
+  display: flex;
+  align-items: flex-end;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  margin-top: 31px;
+  margin-left: 23px;
+}
+
+.box-title__subtitle {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.container__box-desc {
+  display: flex;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: -37px;
+  margin-left: 22px;
+  padding-right: 87px;
+}
+
+.container__box-update {
+  display: flex;
+  padding-right: 10px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin: 5px 0 0 17px;
+}
+
+.container__box-functionality {
+  display: flex;
+  margin: 4px 77px 0 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+}
+
+.box-bag {
+  margin-top: -36px;
+}
+
+.container__img-bag {
+  margin-top: -8px;
+}
+
+.box-about {
+  display: flex;
+  align-items: flex-end;
+}
+
+.box-about__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 128px -12px 63px -1px;
+}
+
+.box-about__link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.box-about__learn {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 9px;
+}
+
+.box-about__button {
+  justify-content: center;
+  width: 160px;
+  margin-left: 33px;
+  border: white 2px solid;
+  color: white;
+  background: #e51937;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  background-color: #e51937;
+  padding: 26px 68px 60px 56px;
+}
+
+.footer__aside-info {
+  margin-top: -12px;
+  margin-left: -2px;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+
+.wrapper-mark {
+  margin-top: 54px;
+}
+
+.wrapper__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 26px;
+}
+
+.wrapper__box-name {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  align-items: flex-end;
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 0;
+  color: white;
+}
+
+.box-name__subtitle {
+  font-size: 10px;
+  line-height: 12px;
+  opacity: .7;
+}
+
+.wrapper__box-stars {
+  display: inline-flex;
+  margin-top: -20px;
+  margin-right: 4px;
+}
+
+.aside__safe {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 102px; */
+}
+
+.aside__img-safe {
+  margin-top: 34px;
+  margin-left: 8px;
+}
+
+.safe__about {
+  color: white;
+  margin-top: 34px;
+  margin-bottom: 35px;
+  margin-right: 28px;
+}
+
+.aside__safe-stars {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.aside__safe-defense {
+  margin-top: -59px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px
+}
+
+.box-about__footer {
+  align-items: center;
+  margin-right: -13px;
+  margin-left: -20px;
+}
+
+.box-about__footer-one {
+  display: flex;
+}
+
+.footer__section {
+  display: inline-block;
+  z-index: 0;
+}
+
+.footer__section-title {
+  display: inline-block;
+  font-style: normal;
+  position: inherit;
+  color: #e51937;
+  font-weight: 600;
+  font-size: 200px;
+  opacity: .1;
+  margin: 100px 0 0 176px;
+  z-index: -100;
+}
+
+.section__img-car {
+  display: inline-block;
+  width: 105%;
+  margin-top: -169px;
+  margin-left: -100px;
+  z-index: 100;
+}
+
+.section__img-car-ipad {
+  display: none;
+}
+
+.footer__dev {
+  display: flex;
+  justify-content: flex-end;
+  margin: 77px 18px 0 0;
+}
+
 @media (max-width: 1270px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container__title {
+    margin: 70px 46px 6px 0;
+    text-align: right;
+  }
+
+  .container__content {
+    flex-direction: column;
+  }
+
+  .container__img {
+    margin: -100px 0px 151px 0px;
+  }
+
+  .container__img-phone {
+    display: none;
+  }
+
+  .container__aside{
+    margin-left: 0;
+    display: grid;
+    grid-template-rows: 1fr 108px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aside-info {
+    margin: -2px 34px 0px -16px;
+  }
+
+  .container__boxes {
+    margin: -12px 0 0 66px;
+  }
+
+  .container__box {
+    margin-bottom: 21px;
+  }
+
+  .box-about {
+    display: grid;
+    grid-column: 1/3;
+  }
+
+  .box-about__container {
+    justify-content: center;
+    margin: 0 64px 40px 0;
+  }
+
+  .container__aside-info {
+    margin-top: 24px;
+    margin-bottom: 58px;
+  }
+
+  .box-about__img-ellipse {
+    width: 31.18px;
+  }
+
+  .box-about__learn {
+    font-size: 16px;
+  }
+
+  .box-about__button {
+    width: 220.84px;
+    height: 55.21px;
+    margin: 0px 0px 12px 44px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__section {
+    order: 1;
+    margin-bottom: 28px;
+  }
+
+  .footer__aside {
+    order: 2;
+    max-width: 1300px;
+  }
   
+  .footer__section-title {
+    font-size: 148px;
+    text-align: center;
+    margin: 38px 0 0 75px;
+  }
+
+  .section__img-car {
+    display: none;
+  }
+
+  .section__img-car-ipad {
+    display: inline-flex;
+    width: 95%;
+    margin-top: -135px;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .footer__aside {
+    display: grid;
+    min-width: 0;
+    grid-template-rows: 1fr 108px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aside__safe {
+    display: none;
+  }
+
+  .box-about__footer-one {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-right: -18px;
+  }
+
+  .footer__dev {
+    display: none;
+  }
+
+  .aside__about {
+    margin: 14px 14px 0 -20px;
+  }
+
+  .wrapper {
+    margin: -13px 0 32px 41px;
+  }
+
+  .wrapper__box {
+    padding-right: 0;
+    margin-right: -11px;
+  }
+}
 
 @media (max-width: 480px) {
+  .container__title {
+    display: none;
+  }
 
+  .container__img {
+    display: none;
+  }
+
+  .container__img-phone {
+    display: inline-flex;
+  }
+
+  .aside-info {
+    margin: -34px -17px 0 -17px;
+  }
+
+  .container__boxes {
+    display: none;
+  }
+
+  .box-about {
+    display: none;
+  }
+
+  .container__aside {
+    display: flex;
+    min-width: 0;
+    margin: -11px 0 0 -7px;
+  }
+
+  .container__aside-info {
+    margin-top: -14px;
+  }
+
+  .footer__section-title {
+    font-size: 91px;
+    width: 100%;
+    margin: 9px 0 -82px -8px;
+  }
+
+  .section__img-car-ipad {
+    margin: -65px 0 53px 5px;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .aside__safe {
+    display: none;
+  }
+
+  .footer__aside {
+    display: flex;
+    min-width: 0;
+    margin: -50px 0 0 -17px;
+  }
+
+  .footer__aside-title {
+    margin: 16px -56px 0 11px;
+  }
+
+  .footer__aside-info {
+    margin: 10px -51px 0 11px;
+  }
+
+  .aside__about {
+    margin-top: -32px;
+  }
+}
 
 @media (max-width: 550px) {
   .main__container {
@@ -624,15 +1119,16 @@ body {
     font-size: 91px;
   }
 
+  .container__boxes {
+    display: none;
+  }
+
   .box-about {
     display: none;
   }
 
-  .container {
-    display: none;
-  }
-
-  .footer {
-    display: none;
+  .container__aside {
+    display: flex;
+    min-width: 0;
   }
 }
