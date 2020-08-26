@@ -959,11 +959,6 @@ body {
     margin-bottom: 28px;
   }
 
-  .footer__aside {
-    order: 2;
-    max-width: 1300px;
-  }
-
   .footer__section-title {
     font-size: 148px;
     text-align: center;
@@ -989,6 +984,8 @@ body {
     min-width: 0;
     grid-template-rows: 1fr 108px;
     grid-template-columns: 1fr 1fr;
+    order: 2;
+    max-width: 1300px;
   }
 
   .aside__safe {
