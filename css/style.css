@@ -790,7 +790,7 @@ body {
 .box-name__subtitle {
   font-size: 10px;
   line-height: 12px;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .wrapper__box-stars {
@@ -857,7 +857,7 @@ body {
   color: #e51937;
   font-weight: 600;
   font-size: 200px;
-  opacity: .1;
+  opacity: 0.1;
   margin: 100px 0 0 176px;
   z-index: -100;
 }
