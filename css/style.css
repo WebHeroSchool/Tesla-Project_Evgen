@@ -78,8 +78,8 @@ body {
 .nav__link:hover,
 .nav__link:focus,
 .nav__link:active {
-  color: #E51937;
-  border-bottom: 1px solid #E51937;
+  color: #e51937;
+  border-bottom: 1px solid #e51937;
   cursor: pointer;
 }
 
@@ -113,12 +113,12 @@ body {
 }
 
 .title-second {
+  margin: 0;
+  padding: 0;
   font-weight: 500;
   font-size: 15px;
   margin-top: 24px;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .main__description {
@@ -238,7 +238,8 @@ body {
   margin-right: 8px;
 }
 
-.main__img-steering-1, .main__img-steering-2 {
+.main__img-steering-1,
+.main__img-steering-2 {
   display: none;
 }
 
@@ -261,7 +262,7 @@ body {
   font-weight: bold;
   font-size: 13px;
   text-align: center;
-  border: 2px solid #E51937;
+  border: 2px solid #e51937;
   width: 160px;
   height: 40px;
   padding: 10px 20px;
@@ -269,7 +270,7 @@ body {
 
 .main__button {
   position: relative;
-  color: #E51937;
+  color: #e51937;
   background-color: white;
   text-align: center;
   justify-content: center;
@@ -298,7 +299,7 @@ body {
   .header__img-burger {
     width: 35.23px;
   }
-  
+
   .main {
     background: url(../img/Tesla_logo_car_ipad.png) no-repeat;
     background-size: contain;
@@ -332,7 +333,6 @@ body {
 
   .main__row {
     margin-bottom: 57px;
-    margin-right: 0;
     margin-left: 47px;
     margin-right: 90px;
   }
@@ -352,8 +352,7 @@ body {
   }
 
   .main__row-text {
-    color: #E51937;
-    margin-left: 9.66px;
+    color: #e51937;
     margin-top: 0;
     text-shadow: none;
     font-size: 16px;
@@ -368,7 +367,6 @@ body {
   }
 
   .main__button {
-    margin-top: 19px;
     width: 220.84px;
     height: 57.13px;
     left: 0;
@@ -561,7 +559,7 @@ body {
 
   .main__row-text {
     margin-right: -39.49px;
-    color: #E51937;
+    color: #e51937;
     text-shadow: none;
     margin-left: 5px;
     font-size: 13px;
@@ -577,7 +575,7 @@ body {
 } */
 
 .container__title {
-  color: #E51937;
+  color: #e51937;
   margin: 101px 905px 0 80px;
   font-style: normal;
   font-weight: 600;
@@ -604,7 +602,7 @@ body {
 .container__aside {
   display: flex;
   flex-direction: column;
-  background-color: #E51937;
+  background-color: #e51937;
   margin-left: -270px;
   margin-top: -151px;
   padding: 20px 51px 0 48px;
@@ -746,7 +744,7 @@ body {
   margin-left: 33px;
   border: white 2px solid;
   color: white;
-  background: #E51937;
+  background: #e51937;
 }
 
 .footer {
@@ -862,7 +860,7 @@ body {
   display: inline-block;
   font-style: normal;
   position: inherit;
-  color: #E51937;
+  color: #e51937;
   font-weight: 600;
   font-size: 200px;
   opacity: .1;
